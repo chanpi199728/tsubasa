@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+header, footer {
+    font-family: 'Finger Paint', cursive;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #F06C98;
+    -webkit-text-stroke: 0.1px white;
+}
+
+.rotate:hover {
+    -webkit-transform: rotateZ(-5deg);
+    -ms-transform: rotateZ(-5deg);
+    transform: rotateZ(-5deg);
+}
+
+footer {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: gray;
+}
+
+body {
+    height: auto;
+    width: auto;
+    background-image: url(img/eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-picture {
+    height: 18rem;
+    width: 24rem;
+    margin: 0 auto;
+    border-radius: 5%;
+    background-image:url(img/zane-lee-XT9iDcKESjE-unsplash.jpg);
+    background-position:left;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.mainboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem auto;
+    height: 16rem;
+    width: 24rem;
+    background-color: black;
+    opacity: 45%;
+    border-radius: 10%;
+}
+
+.main-button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.main-button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: inherit;
+    font-weight: 700;
+    font-size: 0.8rem;
+    background-color: inherit;
+}
+
+#newpost {
+    background-color: #F06C98;
+}
+
+#newpost a {
+    font-size: 1rem;
+    font-weight: 1000;
+    font-family: 'Finger Paint', cursive;
+
+}
+
+.main-button:hover {
+    background-color: white;
+    color: black;
+}
+
+#newpost:hover {
+    color: #F06C98;
+    background-color: white;
+}
